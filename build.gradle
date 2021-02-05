@@ -25,6 +25,8 @@ dependencies {
 	developmentOnly 'org.springframework.boot:spring-boot-devtools'
 	annotationProcessor 'org.projectlombok:lombok'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+	compile group: 'org.mindrot', name: 'jbcrypt', version: '0.4'
+	compile group: 'io.jsonwebtoken', name: 'jjwt', version: '0.9.1'
 }
 
 test {
