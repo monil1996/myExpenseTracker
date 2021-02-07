@@ -1,5 +1,6 @@
-package com.myExpense.myExpenseTracker.filter;
+package com.myExpense.myExpenseTracker.config;
 
+import com.myExpense.myExpenseTracker.filter.AuthFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
